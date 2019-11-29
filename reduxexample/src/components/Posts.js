@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 class Posts extends Component {
-    componentWillMount() {
+    UNSAFE_componentWillMount() {
         console.log(123);
     }
     render() {
